@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YASHI'S Luxury Bridal Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+--red:#5b0713;
+--red2:#7a0d1d;
+--gold:#d4af37;
+--cream:#f8f1e7;
+}
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Montserrat,sans-serif;background:#120304;color:#fff}
+nav{position:fixed;top:0;width:100%;padding:20px 8%;display:flex;justify-content:space-between;background:rgba(0,0,0,.4);backdrop-filter:blur(10px);z-index:999}
+.logo{font-family:"Cormorant Garamond",serif;font-size:38px;color:var(--gold)}
+nav a{color:white;text-decoration:none;margin-left:20px}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url("bride1.jpg") center/cover;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero h1{font-family:"Cormorant Garamond",serif;font-size:90px}
+.hero p{letter-spacing:4px;margin-bottom:20px}
+.btn{display:inline-block;background:var(--gold);padding:15px 35px;color:#000;text-decoration:none;font-weight:700;border-radius:50px}
+section{padding:90px 8%}
+.title{font-family:"Cormorant Garamond",serif;font-size:56px;text-align:center;color:var(--gold);margin-bottom:40px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about img{width:100%;border-radius:20px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.card{background:#1b0709;padding:30px;border:1px solid rgba(212,175,55,.3);border-radius:20px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.gallery img{width:100%;height:450px;object-fit:cover;border-radius:20px}
+.testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.t{background:#1b0709;padding:25px;border-radius:20px}
+.cta{text-align:center;background:linear-gradient(135deg,var(--red),#220203)}
+.footer{text-align:center;padding:40px;background:#090102}
+.whatsapp{
+position:fixed;bottom:20px;right:20px;background:#25D366;color:white;
+padding:18px 22px;border-radius:999px;text-decoration:none;font-weight:bold;
+}
+@media(max-width:768px){
+.hero h1{font-size:55px}
+.about{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">YASHI'S</div>
+<div>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<p>LUXURY BRIDAL MAKEUP ARTIST</p>
+<h1>Timeless Beauty<br>For Your Big Day</h1>
+<br>
+<a class="btn" href="https://wa.me/919329693991?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank">Book On WhatsApp</a>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">Meet The Artist</h2>
+<div class="about">
+<img src="bride4.jpeg" alt="artist">
+<div>
+<h3 style="color:var(--gold);font-size:34px;margin-bottom:15px">Luxury Bridal Transformations</h3>
+<p style="line-height:1.8">
+At YASHI'S, every bride is treated like royalty. We specialize in luxury bridal makeup,
+engagement looks, reception glam, party makeup, hair styling, nail art and premium beauty services.
+Our mission is to create timeless elegance for your most memorable moments.
+</p>
+</div>
+</div>
+</section>
+
+<section id="services">
+<h2 class="title">Our Services</h2>
+<div class="services">
+<div class="card"><h3>Bridal Makeup</h3><p>HD & Airbrush Bridal Looks</p></div>
+<div class="card"><h3>Engagement Makeup</h3><p>Elegant Pre-Wedding Glam</p></div>
+<div class="card"><h3>Hair Styling</h3><p>Luxury Hair Styling & Updos</p></div>
+<div class="card"><h3>Nail Studio</h3><p>Premium Nail Extensions</p></div>
+</div>
+</section>
+
+<section id="gallery">
+<h2 class="title">Bridal Gallery</h2>
+<div class="gallery">
+<img src="bride1.jpeg" alt="">
+<img src="bride2.jpeg" alt="">
+<img src="bride3.jpeg" alt="">
+<img src="bride4.jpeg" alt="">
+</div>
+</section>
+
+<section>
+<h2 class="title">What Brides Say</h2>
+<div class="testimonials">
+<div class="t">"Absolutely stunning bridal look. Everyone loved it."</div>
+<div class="t">"Professional, punctual and extremely talented."</div>
+<div class="t">"The makeup stayed flawless all day."</div>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<h2 class="title">Reserve Your Wedding Date</h2>
+<p style="margin-bottom:25px">Limited bridal bookings available.</p>
+<a class="btn" href="https://wa.me/919329693991?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank">Book Appointment</a>
+</section>
+
+<footer class="footer">
+<h3>YASHI'S Beauty Salon</h3>
+<p>📞 +91 93296 93991</p>
+<p>Lalghati, Bhopal</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919329693991?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank">WhatsApp</a>
+
+</body>
+</html>
